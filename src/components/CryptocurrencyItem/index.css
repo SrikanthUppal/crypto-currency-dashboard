@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+}
+.names {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.names2 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+@media (min-width: 768px) {
+  .names {
+    font-size: 18px;
+  }
+  .names2 {
+    font-size: 18px;
+  }
+}
+.list-item-logo-name-container {
+  display: flex;
+  align-items: center;
+}
+.list-item-usd-euro-container {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.currency-image {
+  height: 32px;
+  width: 32px;
+  margin-right: 6px;
+}
